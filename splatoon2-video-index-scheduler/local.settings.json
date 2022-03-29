@@ -1,0 +1,10 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "USER_ID": "user_id",
+        "SESSION_ID": "session_id",
+        "BASE_URL": "base_url"
+    }
+}
