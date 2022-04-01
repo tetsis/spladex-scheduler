@@ -7,7 +7,7 @@ using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Host;
 using Microsoft.Extensions.Logging;
 
-namespace splatoon2_video_index_scheduler
+namespace spladex_scheduler
 {
     public class UpdateChannels
     {

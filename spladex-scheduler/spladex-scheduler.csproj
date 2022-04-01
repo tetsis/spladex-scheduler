@@ -2,14 +2,14 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <AzureFunctionsVersion>v4</AzureFunctionsVersion>
-    <RootNamespace>splatoon2_video_index_scheduler</RootNamespace>
+    <RootNamespace>spladex_scheduler</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Flurl.Http" Version="3.2.2" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\splatoon2-video-index-core\ApplicationService\ApplicationService.csproj" />
+    <ProjectReference Include="..\..\spladex-core\ApplicationService\ApplicationService.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
